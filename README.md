@@ -115,7 +115,8 @@ ledger constructions remain outside the current verification scope.
 
 ## Run
 
-```bash
 pip install -r requirements.txt
 python experiments/run_audit.py
 pytest -q tests/
+pytest -q tests/
+
