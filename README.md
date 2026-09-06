@@ -30,9 +30,7 @@ $$
 ### Equation (1.3)
 
 $$
-T_m + T_{m+1}
-=
-\frac{1}{(2m+1)^2}
+T_m + T_{m+1} = \frac{1}{(2m+1)^2}
 $$
 
 ## Exact finite recurrence
@@ -42,23 +40,13 @@ Derived by telescoping from (1.1).
 For the truncated tail
 
 $$
-T_m^{(N)}
-=
-\sum_{r=0}^{N-1}
-\frac{(-1)^r}{(2m+2r+1)^2}
+T_m^{(N)} = \sum_{r=0}^{N-1} \frac{(-1)^r}{(2m+2r+1)^2}
 $$
 
 the exact finite identity is
 
 $$
-T_m^{(N)}
-+
-T_{m+1}^{(N)}
--
-\frac{1}{(2m+1)^2}
-=
-\frac{(-1)^{N-1}}
-{(2m+2N+1)^2}
+T_m^{(N)} + T_{m+1}^{(N)} - \frac{1}{(2m+1)^2} = \frac{(-1)^{N-1}}{(2m+2N+1)^2}
 $$
 
 This identity is checked using exact rational arithmetic.
