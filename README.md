@@ -15,14 +15,16 @@ majority of the paper's constructions are **NOT implemented**.
 ### Equation (1.1)
 
 $$
-T_m = \sum_{r=0}^{\infty}
+T_m =
+\sum_{r=0}^{\infty}
 \frac{(-1)^r}{(2m+2r+1)^2}
 $$
 
 ### Equation (1.2)
 
 $$
-u_{m} = \frac{T_m}{2m+1}
+u_m =
+\frac{T_m}{2m+1}
 $$
 
 ### Equation (1.3)
@@ -71,14 +73,14 @@ $$
 (2.1),\quad
 (2.2),\quad
 (3.3)-(3.8),\quad
-(4.1)-(4.5),
+(4.1)-(4.5)
 $$
 
 $$
 (5.9),\quad
 (5.14),\quad
 (5.25),\quad
-(9.3)-(9.6).
+(9.3)-(9.6)
 $$
 
 These are therefore **NOT implemented**.
