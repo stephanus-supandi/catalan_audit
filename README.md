@@ -22,13 +22,13 @@ $$
 ### Equation (1.2)
 
 $$
-u_m = \frac{T_m}{2m+1}
+u_{m} = \frac{T_m}{2m+1}
 $$
 
 ### Equation (1.3)
 
 $$
-T_m + T_{m+1}
+T_{m} + T_{m+1}
 =
 \frac{1}{(2m+1)^2}
 $$
@@ -40,7 +40,7 @@ Derived by telescoping from (1.1).
 For the truncated tail
 
 $$
-T_m^{(N)}
+T_{m}^{(N)}
 =
 \sum_{r=0}^{N-1}
 \frac{(-1)^r}{(2m+2r+1)^2},
